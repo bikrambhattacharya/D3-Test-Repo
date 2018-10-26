@@ -13,8 +13,8 @@ class Rect extends Component {
    }
    createRect() {
     var data= this.props.data;
-    var width = 150;
-    var height = 130;
+    var width = 100;
+    var height = 80;
 
     const node = this.node 
 
@@ -48,13 +48,13 @@ class Rect extends Component {
       .style("fill","yellow")
       .attr("x",(d)=>d[3])
       .attr("y",(d)=>d[4]+height)
-      .attr("width",150)
-      .attr("height",50)
+      .attr("width",100)
+      .attr("height",30)
       
     canvas
       .append("text") // Adding  text to display the {chamber Number}  in Rectangle 2
-      .attr("x",(d)=>d[3]+55)
-      .attr("y",(d)=>d[4]+height+30)
+      .attr("x",(d)=>d[3]+25)
+      .attr("y",(d)=>d[4]+height+20)
       .text((d)=>d[2])
       .attr("font-size","20px")
 

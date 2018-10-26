@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import Rect from './Rect';
 
 const data = [
-                [30,"red","c001",30,10],
-                [45,"green","c002",1050,10],
-                [60,"green","c003",650,470],
-                [14,"green","c004",160,470]
+                [30,"red","c001",270,200],
+                [45,"green","c002",345,400],
+                [60,"green","c003",720,400],
+                [14,"green","c004",850,110]
             ]
 
 const svgcontainerpostion = {
